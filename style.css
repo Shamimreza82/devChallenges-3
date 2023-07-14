@@ -1,0 +1,43 @@
+
+body {
+font-family: 'Montserrat', sans-serif;
+background: #181719;
+height: 100vh;
+width: 100%;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.btn {
+    border: 2px solid rgb(255, 255, 255);
+    color: aliceblue;
+    background-color: #181719;
+    padding: 5px 10px;
+}
+
+.d {
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+}
+
+
+.header-text {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    align-items: center;
+}
+
